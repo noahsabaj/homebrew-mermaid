@@ -1,28 +1,28 @@
 class Mermaid < Formula
   desc "Open-source, model-agnostic AI pair programmer for the terminal"
   homepage "https://github.com/noahsabaj/mermaid-cli"
-  version "0.24.0"
+  version "0.25.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.24.0/mermaid-macos-aarch64.tar.gz"
-      sha256 "9aa711ca8db2f5e72c9b1de92e8f0ef039240d3a5477d74086d35de08e29b654"
+      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.25.0/mermaid-macos-aarch64.tar.gz"
+      sha256 "fa7f93f2c1eb426b6a6fb0971ec6713e2de6f894e53199b23baa6a7111d88385"
     end
     on_intel do
-      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.24.0/mermaid-macos-x86_64.tar.gz"
-      sha256 "a91b9366e6e0903040abd380f879af8d7caa4ee91016e791995ad2c6790cdeda"
+      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.25.0/mermaid-macos-x86_64.tar.gz"
+      sha256 "d5d8ebfdab9c8958ebca040a9d5936180728812c248dba7aba1f4080e718d0cd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.24.0/mermaid-linux-aarch64.tar.gz"
-      sha256 "2904b1ddbb27747ca347618fe6222229ae55edb26a0684af72d80dbde95777a1"
+      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.25.0/mermaid-linux-aarch64.tar.gz"
+      sha256 "a6a5ee7ab553ad6e636f960f722a90372b2d59c2c33350b75209480a46272b51"
     end
     on_intel do
-      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.24.0/mermaid-linux-x86_64.tar.gz"
-      sha256 "d4aacfe3f6b5f1321b096e557e39bee6940b85a364a3f69923de0c7f4d9c0b84"
+      url "https://github.com/noahsabaj/mermaid-cli/releases/download/v0.25.0/mermaid-linux-x86_64.tar.gz"
+      sha256 "61c3cd9789c7c6b253c4e3f2749e2be9a07055f3de4e030947cee9f0956b783b"
     end
   end
 
